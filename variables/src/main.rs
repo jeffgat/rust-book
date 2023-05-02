@@ -3,14 +3,14 @@ fn main() {
 
     let x = x + 1;
 
-    let z = 'c';
-    let b = "string literal uses double quotes";
+    // let z = 'c';
+    // let b = "string literal uses double quotes";
 
-    let tup: (i32, f64, u8) = (499, 6.3, 2);
+    // let tup: (i32, f64, u8) = (499, 6.3, 2);
 
-    let (r, y, z) = tup;
+    // let (r, y, z) = tup;
 
-    println!("The value of y is: {y}");
+    // println!("The value of y is: {y}");
 
     {
         let x = x * 2;
@@ -19,6 +19,6 @@ fn main() {
 
     println!("The value of x is: {x}");
 
-    let spaces = "   ";
-    let spaces = spaces.len();
+    // let spaces = "   ";
+    // let spaces = spaces.len();
 }
