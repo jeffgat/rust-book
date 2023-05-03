@@ -57,3 +57,8 @@
 - basically creates a pointer that points to the variables pointer
 - references are obviously read only unless specificed with `mut`
 - when using mutable references, they are the only references that can exist to that specific value (within the same scope)
+
+## structs
+- struct -- structures are js objects
+- a lot more like class objects in a sense
+- field init shorthand = { username: username } => { username }
