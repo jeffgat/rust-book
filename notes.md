@@ -35,3 +35,25 @@
 - loop label look like `'counting_up: loop`
 - can be used to specific which loops to `break` or `continue`
 - `break 'counting_up;`
+
+## ownership
+
+### memory and allocation
+- 1 `allocate` must equal 1 `free`
+- rust automatically calls a function called `drop` when variables go out of scope
+
+```
+  let s1 = String::from("hello");
+  let s2 = s1;
+```
+
+- in the following example, `s1` is no longer valid, and the info is `moved` into `s2`
+- must called `clone()` to deep copy a var
+
+### references and borrowing
+- `&` used for referencing vars
+- `*` de-references
+- this way we can use the var's value without transfering ownership
+- basically creates a pointer that points to the variables pointer
+- references are obviously read only unless specificed with `mut`
+- when using mutable references, they are the only references that can exist to that specific value (within the same scope)
