@@ -62,3 +62,8 @@
 - struct -- structures are js objects
 - a lot more like class objects in a sense
 - field init shorthand = { username: username } => { username }
+- functions defined within an impl block are called associate functions
+
+## enums and pattern matching
+- match arms possbilities must cover all possibilites
+- `if let` is like `match` with one arm
