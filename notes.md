@@ -67,3 +67,20 @@
 ## enums and pattern matching
 - match arms possbilities must cover all possibilites
 - `if let` is like `match` with one arm
+
+## packages/crates/modules
+- two types of crates
+- binary crate, compiles down into an executable -- everything we've done so far with a9 main function that executes
+- library crate, define functionality and are meant to be imported as utility
+- absolute paths use the keyword `crate`
+- relative paths use keywords `self` or `super`
+- items in parent modules cannot access items inside child modules without specificying or declaritively importing..
+- but child modules can access items in the parent module that defines them, because they're aware of their context
+- modules are containers
+- `super` is like `..`, which references the parent module
+- enums and structs can be made public
+- however structs need to specific each field that will be available to the public while all fields on the enum become public
+- `use` needs to be within the same scope -- we can't simply import everything at the top the way we do js
+- because `use` is private my default to that scope
+- but we can declare it as public via `pub use` -- called re-exporting
+- `*` is the glob operator -- we can import everything from a lib with this but is probably best to avoid unless testing

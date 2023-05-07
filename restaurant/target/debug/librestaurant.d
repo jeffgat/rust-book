@@ -1,0 +1,1 @@
+/Users/jeffreygatbonton/Desktop/Code/0-Practice/rust-book/restaurant/target/debug/librestaurant.rlib: /Users/jeffreygatbonton/Desktop/Code/0-Practice/rust-book/restaurant/src/front_of_house.rs /Users/jeffreygatbonton/Desktop/Code/0-Practice/rust-book/restaurant/src/lib.rs
