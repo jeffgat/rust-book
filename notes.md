@@ -84,3 +84,10 @@
 - because `use` is private my default to that scope
 - but we can declare it as public via `pub use` -- called re-exporting
 - `*` is the glob operator -- we can import everything from a lib with this but is probably best to avoid unless testing
+
+## collections
+- collections are stored on the heap, can contain multiple values
+- three most common types -> vector, string, hash map
+- can reference a value stored in a vector by indexing or get
+- `&v[1]` or `v.get(1)`
+- strings are not indexed in rust
