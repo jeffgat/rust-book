@@ -91,3 +91,6 @@
 - can reference a value stored in a vector by indexing or get
 - `&v[1]` or `v.get(1)`
 - strings are not indexed in rust
+
+## errors
+- rust groups errors into 2 types -- recoverable and unrecoverable
