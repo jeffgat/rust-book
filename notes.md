@@ -94,3 +94,4 @@
 
 ## errors
 - rust groups errors into 2 types -- recoverable and unrecoverable
+- `unwrap` - If the Result value is the Ok variant, unwrap will return the value inside the Ok. If the Result is the Err variant, unwrap will call the panic! macro for us. Here is an example of unwrap in action:
